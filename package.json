@@ -1,0 +1,14 @@
+{
+  "name": "team-workflows",
+  "version": "1.0.0",
+  "description": "🛠 Bộ toolkit AI agent workflows cho CEO Office — gọi là có, dùng ở bất kỳ dự án nào",
+  "scripts": {
+    "send-tg": "node scripts/send-to-telegram.js",
+    "send-tg:test": "node scripts/send-to-telegram.js --text '🤖 Test từ team-workflows toolkit'",
+    "setup": "npm install"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.67.0",
+    "dotenv": "^16.4.0"
+  }
+}
